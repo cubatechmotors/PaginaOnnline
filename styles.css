@@ -139,5 +139,9 @@ header {
     margin-top: 5px;
 }
 .productos-lista{
-	
+	text-align: center;
+}
+.boton-nav
+ {
+	text-align: center;
 }
