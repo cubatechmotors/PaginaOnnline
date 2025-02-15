@@ -1,0 +1,20 @@
+[
+    {
+        "imagen": "moto1.jpg",
+        "nombre": "Moto Eléctrica Modelo X",
+        "descripcion": "Autonomía: 80km - Velocidad: 60km/h",
+        "precio": "1,200 USD"
+    },
+    {
+        "imagen": "bici1.jpg",
+        "nombre": "Bicicleta Eléctrica Modelo Y",
+        "descripcion": "Autonomía: 50km - Velocidad: 30km/h",
+        "precio": "3,200 USD"
+    },
+    {
+        "imagen": "moto3.jpg",
+        "nombre": "Moto Eléctrica Modelo Z",
+        "descripcion": "Autonomía: 100km - Velocidad: 75km/h",
+        "precio": "1,500 USD"
+    }
+]

@@ -1,0 +1,5 @@
+[
+    { "imagen": "moto1.jpg", "precio": "$1,200" },
+    { "imagen": "bici1.jpg", "precio": "$850" },
+    { "imagen": "moto3.jpg", "precio": "$1,500" }
+]

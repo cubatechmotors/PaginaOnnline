@@ -1,8 +1,8 @@
-fetch("productos_destacados.json")
+fetch("productos_adicionales.json")
     .then(response => response.json())
     .then(data => {
-        let productosContainer = document.getElementById("productos-container");
-        productosContainer.innerHTML = "";
+        let productosLista = document.getElementById("productos-adicionales");
+        productosLista.innerHTML = "";
 
         data.forEach(producto => {
             let productoHTML = `
@@ -11,7 +11,7 @@ fetch("productos_destacados.json")
                     <p>${producto.precio}</p>
                 </div>
             `;
-            productosContainer.innerHTML += productoHTML;
+            productosLista.innerHTML += productoHTML;
         });
     })
     .catch(error => console.error("Error al cargar productos:", error));
