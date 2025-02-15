@@ -138,10 +138,15 @@ header {
     display: block;
     margin-top: 5px;
 }
-.productos-lista{
+.productos-lista h2{
 	text-align: center;
+	display: none;
+    background: #f8f8f8;
 }
+
 .boton-nav
  {
 	text-align: center;
+	display: none;
+    background: #f8f8f8;
 }
