@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Foto Fondo azul rallado'); /* Fondo adaptable */
+    background-image: url('Foto Fondo azul rallado.jpg'); /* Fondo adaptable */
     background-size: cover;
     background-position: center;
 }
@@ -65,4 +65,13 @@ header {
 
 .whatsapp-float img {
     width: 50px;
+}
+
+/* Estilos para Categorías y Ofertas */
+#btnCategorias, #btnOfertas {
+    background: lightgreen;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
 }
