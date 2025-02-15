@@ -75,3 +75,66 @@ header {
     margin: 5px;
     cursor: pointer;
 }
+/* Centrar "Productos Destacados" en teléfonos */
+@media (max-width: 768px) {
+    .titulo-centrado {
+        text-align: center;
+    }
+}
+
+/* Botón de Categorías en Productos */
+#btnCategorias {
+    background: lightgreen;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Menú desplegable de categorías */
+.categorias-oculto {
+    display: none;
+    text-align: center;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.categorias-oculto a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.categorias-oculto a:hover {
+    background: #ddd;
+}
+.productos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 120px;
+    height: 140px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.producto img {
+    width: 100px;
+    height: 100px;
+}
+
+.precio {
+    font-weight: bold;
+    color: green;
+    display: block;
+    margin-top: 5px;
+}
