@@ -1,3 +1,25 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Foto Fondo azul rallado'); /* Fondo adaptable */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: lightgray;
+}
+
 /* Botón de navegación */
 .btn-navegacion {
     display: inline-block;
@@ -10,6 +32,14 @@
 }
 
 /* Estilos de productos */
+#productos-container, #productos-adicionales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
 .producto {
     width: 120px;
     height: 100px;
@@ -18,12 +48,21 @@
     border-radius: 5px;
     text-align: center;
     padding: 5px;
-    display: inline-block;
-    margin: 10px;
 }
 
 .producto img {
     width: 100%;
     height: 80%;
     border-radius: 5px;
+}
+
+/* WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-float img {
+    width: 50px;
 }
